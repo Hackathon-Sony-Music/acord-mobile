@@ -1,0 +1,7 @@
+{
+  "name": "Acord",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
