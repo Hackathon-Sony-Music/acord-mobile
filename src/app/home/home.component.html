@@ -1,0 +1,12 @@
+<ion-content padding class="background">
+  <h1 class="fontAcord">Acord</h1>
+  
+  <ion-item>
+    <ion-label>Em que area você trabalha?</ion-label>
+    <ion-select interface="action-sheet" [(ngModel)]="isCantor" (ionChange)="onSelectChange()">
+      <ion-select-option value="true">Compositor/Cantor</ion-select-option>
+      <ion-select-option value="true">Produtor/Gravadora</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+</ion-content>

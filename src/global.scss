@@ -24,3 +24,117 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.titleScreen {
+  position: absolute;
+  width: 233px;
+  height: 78px;
+  left: 19px;
+  top: 15px;
+
+  font-family: Barlow;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  /* or 118% */
+
+  color: #aa13eb;
+}
+
+.am-material-ui {
+  position: relative;
+}
+
+.am-material-ui .input {
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.am-material-ui .input input{
+  border-radius: 10px;
+  border: solid 2px #AA13EB;
+  padding: 20px;
+  width: 300px;
+  height: 15px;
+}
+
+.am-material-ui .input input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.am-material-ui .input text1  {
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  top: -8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #AA13EB;
+  
+}
+
+.am-material-ui .input text2  {
+  font-size: 13px;
+  position: absolute;
+  left: 6px;
+  top: 48px;
+  font-family: "Roboto";
+  color: #C15AED;
+}
+
+.blob1 {
+  position: absolute;
+  top: -300px;
+  right: -90px;
+  width: 50vmax;
+  z-index: -1;
+  animation: blob1 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.blob2 {
+  position: absolute;
+  top: -300px;
+  right: -90px;
+  width: 50vmax;
+  z-index: -1;
+  animation: blob2 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes blob2 {
+  0%   { transform: scale(1);  }
+  25%  { transform: scale(0.999, 1.01)  rotate(5deg); }
+  50%  { transform: scale(1.01)  rotate(-5deg); }
+  75%  { transform: scale(0.999)  rotate(5deg); }
+  100% { transform: scale(1) ; }
+}
+
+@keyframes blob1 {
+  0%   { transform: scale(0.8);  }
+  25%  { transform: scale(0.799, 0.91)  rotate(5deg); }
+  50%  { transform: scale(0.81)  rotate(-5deg); }
+  75%  { transform: scale(0.799)  rotate(5deg); }
+  100% { transform: scale(0.8) ; }
+}
+
+
+@media only screen and (max-width: 415px) {
+  .am-material-ui .blob1 {
+      top: -300px;
+      right: -90px;
+  }
+  .am-material-ui .blob2 {
+      top: -300px;
+      right: -90px;
+  }
+}

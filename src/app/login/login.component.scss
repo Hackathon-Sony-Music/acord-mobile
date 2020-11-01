@@ -1,0 +1,85 @@
+ion-content.background {
+  --background: url(../../assets/img/mobile-painel_login.png) 0 0/100% 100% no-repeat;
+}
+
+.btnRegister {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0px 0px 24px;
+  position: absolute;
+  width: 123px;
+  height: 30.18px;
+  right: 8px;
+  top: 23px;
+  background: #850fb8;
+  box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+  border-radius: 100px;
+}
+
+.titleBtnRegister {
+  position: absolute;
+  width: 75px;
+  height: 24px;
+  left: 24px;
+  top: -27.5px;
+  font-family: "Allerta";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9faff;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+ion-grid {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 100%;
+}
+
+ion-item {
+  --ion-color-primary: #850fb8;
+  --padding-start: 20%;
+  --border-style: none;
+}
+
+.agreeTerms {
+  font-size: 13px;
+  margin-left: 5px;
+  color: #c15aed;
+  font-family: "Roboto";
+}
+
+.btnLogin {
+  padding: 8px 0px 0px 24px;
+  position: absolute;
+  width: 88px;
+  height: 40px;
+  left: 25%;
+  top: 110%;
+  background: #850fb8;
+  box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+  border-radius: 100px;
+}
+
+.titleBtnLogin {
+  position: absolute;
+  width: 40px;
+  height: 24px;
+  left: 24px;
+  top: 20%;
+  font-family: 'Abyssinica SIL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9faff;
+  flex: none;
+  order: 1;
+}

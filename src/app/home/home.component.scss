@@ -1,0 +1,27 @@
+ion-content.background {
+  --background: url(../../assets/img/mobile-perfil_main.png) 0 0/100% 100% no-repeat;
+}
+
+.fontAcord {
+  position: absolute;
+  width: 233px;
+  height: 78px;
+  left: 22px;
+  top: 15px;
+
+  font-family: "Barlow";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 42px;
+  /* or 89% */
+  color: #ffffff;
+}
+
+ion-item {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+}

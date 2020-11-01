@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { FormAppComponent } from './form-app/form-app.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+  {path: '', component: LoginComponent},
+  {path: 'form', component: FormAppComponent},
+  {path: 'registrar', component: HomeComponent}
 ];
 @NgModule({
   imports: [

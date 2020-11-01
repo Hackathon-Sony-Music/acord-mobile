@@ -1,0 +1,68 @@
+ion-content.background {
+  --background: url(../../assets/img/mobile-painel_register.png) 0 0/100% 100% no-repeat;
+}
+
+.titleScreen {
+  position: absolute;
+  width: 233px;
+  height: 78px;
+  left: 19px;
+  top: 15px;
+
+  font-family: "Barlow";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #aa13eb;
+}
+
+ion-grid {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 100%;
+}
+
+.agreeTerms {
+  font-size: 13px;
+  margin-left: 5px;
+  color: #c15aed;
+  font-family: 'Roboto';
+}
+
+ion-item {
+  --ion-color-primary: #850fb8;
+  --padding-start: 0px;
+  --border-style: none;
+}
+
+.buttonRegister {
+  padding: 8px 0px 0px 24px;
+  width: 112px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  background: #850fb8;
+  left: 25%;
+  position: absolute;
+  box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+  border-radius: 100px;
+}
+
+.titleButtonRegister {
+  position: absolute;
+  width: 64px;
+  height: 24px;
+  left: 24px;
+  top: -8px;
+  font-family: "Abyssinica SIL";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9faff;
+  order: 1;
+  margin: 16px 0px;
+}
