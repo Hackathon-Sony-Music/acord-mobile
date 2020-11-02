@@ -15,7 +15,7 @@ Acord é uma plataforma de facilitação, promovendo a convergência entre um po
 Toda aplicaçao mobile foi construínda com ionic.
 * Ionic     -> version = '4'
 
-## Instalacao de Dependencias
+## Instalação de Dependências
 O projeto é iniciado com os comandos ionic regulares.
 
 1. Run `npm install` para instalar todas as dependências.
