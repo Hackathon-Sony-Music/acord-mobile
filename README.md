@@ -40,7 +40,7 @@ O projeto é iniciado com os comandos ionic regulares.
  └── tslint.json                  # TypeScript linting options
 ```
 
-### Estrutura de Diretorio
+## Estrutura de Diretorio
 ```
 .
    ├── ...
@@ -56,12 +56,4 @@ O projeto é iniciado com os comandos ionic regulares.
    │   └── service-worker.js      # Cache configurations
    └── ...
 ```
-
-
-## Rodando o Projeto
-- Abra o projeto via terminar
-- Execute o seguinte comando:   
-  - npm install
-- Execure o comando:
-  - ionic serve
 
