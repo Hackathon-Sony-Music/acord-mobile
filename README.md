@@ -6,7 +6,7 @@ Acord é uma plataforma de facilitação, promovendo a convergência entre um po
 
 * Norton Ricardo
 * Wilian Antunes
-* Omar
+* Omar Lopes
 * Victor Junior 
 * Victor Araujo 
 
